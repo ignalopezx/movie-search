@@ -59,7 +59,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <!-- springdoc -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.1.0</version> <!-- elegí la versión estable más reciente -->
+        </dependency>
+
+        <!-- meilisearch client (java) -->
+        <dependency>
+            <groupId>com.meilisearch.sdk</groupId>
+            <artifactId>meilisearch-java</artifactId>
+            <version>0.17.0</version>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
